@@ -1,0 +1,24 @@
+{
+  "name": "express-handlebars-basic-example",
+  "version": "0.0.0",
+  "description": "",
+  "private": true,
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon --watch . --delay 1 --exec 'node' src/server.js"
+  },
+  "author": "Eric Ferraiuolo <eferraiuolo@gmail.com>",
+  "license": "BSD",
+  "dependencies": {
+    "connect-livereload": "^0.6.1",
+    "express": "^4.17.1",
+    "express-handlebars": "^5.2.0",
+    "http-errors": "^1.8.0",
+    "node-sass-middleware": "^0.11.0"
+  },
+  "devDependencies": {
+    "livereload": "^0.9.1",
+    "nodemon": "^2.0.6"
+  }
+}
